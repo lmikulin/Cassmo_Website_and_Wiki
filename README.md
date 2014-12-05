@@ -1,7 +1,6 @@
-CASMMO_Website_and_Wiki
+Cassmo Website
 =======================
 
-Because every good game needs a wiki!
-*It's just waiting to be named*
+"Because every good game needs a wiki!"
 
 This website will grow with the game, and will house information, documentation and perhaps a wiki.
