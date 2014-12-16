@@ -1,0 +1,34 @@
+/*
+<!-- The CASSMO game Website & Wiki -->
+<!-- Created By Eric Mikulin-->
+*/
+
+body { 
+  background: url(../src/star.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, p {
+	text-align: center;
+}
+
+.bold {
+	color: #ffffff;
+}
+
+#bodyPara {
+	width: 750px;
+	height: 1000px;
+    padding: 25px;
+    border: 25px solid;
+    border-color: #C2C2C2;
+    margin: 25px;
+
+    background-color: rgba(255, 255, 255, .5);
+
+    border-radius: 10px;
+}
+
