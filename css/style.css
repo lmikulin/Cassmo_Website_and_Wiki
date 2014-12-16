@@ -9,7 +9,7 @@
 }
 
 body { 
-  background: url(../src/star.jpg) no-repeat center center;
+  background: url(../src/star.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -26,15 +26,59 @@ h1, h2, h3, p {
 	font-size: 5em;
 }
 
+#trueNav {
+	width: 1000px;
+	height: 250px;
+    border: 5px solid;
+    border-color: #ffffff;
+
+    background-color: rgba(0, 0, 0, .9);
+
+    margin: 25px auto;
+
+    position: relative;
+}
+
+.planet{
+	border-radius: 50%;
+	font-family: "guardian";
+	display: inline-block;
+	position: relative;
+}
+
+.planet a {
+	text-decoration: none;
+}
+
+#sun {
+	width: 120px;
+	height: 240px;
+	border-radius: 0 120px 120px 0;
+
+	text-align: center;
+
+	border: 5px solid #CCCC52;
+	border-left: 0;
+	background-color: #FFFF66;
+}
+
+#mercury {
+	width: 100px;
+	height: 100px;
+
+	text-align: center;
+
+	border: 5px solid #8A5C2E;
+	background-color: #996633;
+}
+
+#mercury a {
+	color: #4C331A;
+}
+
 .navbar	{
 	width: 50%;
 	min-width: 650px;
-	margin: auto;
-	border-radius: 0;
-}
-
-.breadcrumb {
-	width: 99%;
 	margin: auto;
 	border-radius: 0;
 }
@@ -44,6 +88,12 @@ h1, h2, h3, p {
 	width: 16.4%;
 	text-align: center;
 	vertical-align: center;
+}
+
+.breadcrumb {
+	width: 99%;
+	margin: auto;
+	border-radius: 0;
 }
 
 footer nav li{
