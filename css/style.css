@@ -76,13 +76,14 @@ a .planet{
 	color: #4C331A;
 	left: 140px;
 	top: 125px;
-	transition: height 0.5s, width 1s, color 0.5s, top 1s;
+	transition: height 0.5s, width 1s, color 0.5s, background-color 0.8s, top 1s;
 }
 
 #mercury:hover {
 	height: 110px;
 	width: 110px;
-	color: #FFCC66;
+	background-color: #AD855C;
+	color: #D6C2AD;
 	top: 110px
 }
 
@@ -93,14 +94,28 @@ a .planet{
 }
 
 #mercuryMoon {
-	width: 50px;
-	height: 50px;
+	width: 54px;
+	height: 54px;
 	position: absolute;
 	left: 210px;
 	top: 50px;
 	border: 5px solid #A0A0A0;
 	background-color: #B2B2B2;
-	color: #909090;
+	color: #828282;
+	transition: color 0.8s, width 0.4s, height 0.4s, top 0.4s;
+}
+
+#mercuryMoon:hover {
+	color: #656565;
+	width: 60px;
+	height: 60px;
+	top: 45px;
+	background-color: #BABABA;
+}
+
+.mercuryMoon {
+	position: relative;
+	top: 14px;
 }
 
 #venus {
@@ -113,12 +128,21 @@ a .planet{
 }
 
 #earth {
-	width: 125px;
-	height: 125px;
-
-	border: 5px solid #8A5C2E;
-	background-color: #996633;
-	color: #4C331A;
+	width: 135px;
+	height: 135px;
+	position: absolute;
+	left: 480px;
+	top: 80px;
+	border: 5px solid #009999;
+	background-color: #33CCCC;
+	color: #29A3A3;
+}
+#earth:hover {
+	color:#1F7A7A;
+}
+.earth {
+	position: relative;
+	top: 50px;
 }
 
 #earthMoon {
