@@ -44,9 +44,10 @@ h1, h2, h3, p {
 	font-family: "guardian";
 	display: inline-block;
 	position: relative;
+	text-align: center;
 }
 
-.planet a {
+a .planet{
 	text-decoration: none;
 }
 
@@ -55,25 +56,76 @@ h1, h2, h3, p {
 	height: 240px;
 	border-radius: 0 120px 120px 0;
 
-	text-align: center;
-
 	border: 5px solid #CCCC52;
 	border-left: 0;
 	background-color: #FFFF66;
+	color: #4C331A;
+}
+
+.sun {
+	position: relative;
+	top: 110px;
 }
 
 #mercury {
 	width: 100px;
 	height: 100px;
 
-	text-align: center;
+	border: 5px solid #8A5C2E;
+	background-color: #996633;
+	color: #4C331A;
+
+	top: 125px;
+	/*transition: height 0.5s, width 1s, color 0.5s, top 1s;*/
+}
+/*
+#mercury:hover {
+	height: 110px;
+	width: 110px;
+	color: red;
+	top: 110px
+}*/
+
+
+.mercury {
+	position: relative;
+	top: 40px;
+}
+
+#mercuryMoon {
+	width: 50px;
+	height: 50px;
+
+	border: 5px solid #A0A0A0;
+	background-color: #B2B2B2;
+	color: #909090;
+}
+
+#venus {
+	width: 75px;
+	height: 75px;
 
 	border: 5px solid #8A5C2E;
 	background-color: #996633;
+	color: #4C331A;
 }
 
-#mercury a {
+#earth {
+	width: 125px;
+	height: 125px;
+
+	border: 5px solid #8A5C2E;
+	background-color: #996633;
 	color: #4C331A;
+}
+
+#earthMoon {
+	width: 50px;
+	height: 50px;
+
+	border: 5px solid #A0A0A0;
+	background-color: #B2B2B2;
+	color: #909090;
 }
 
 .navbar	{
@@ -104,8 +156,7 @@ footer nav li{
 }
 
 #bodyPara {
-	width: 50%;
-	min-width: 650px;
+	width: 960px;
 	height: 1000px;
     padding: 25px;
     border: 5px solid;
