@@ -8,4 +8,8 @@ This website will grow with the game, and will house information, documentation 
 #####Information
 - It uses the [Bootstrap](http://getbootstrap.com/) Framework
 
-- Features a Clean, Minimalistic design that looks good, and provide plenty of information.
+- Only Tested in Google Chrome (Latest Version)
+
+- Tiny bit of testing in Firefox (32.0.3)
+
+- No CSS compatibilities with other engines have been put in, browse at your own risk!

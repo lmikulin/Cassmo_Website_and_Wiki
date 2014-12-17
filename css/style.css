@@ -83,11 +83,14 @@ a .planet{
 	color: #3d2814;
 	left: 140px;
 	top: 125px;
-	transition: color 0.5s;
+	box-shadow: 0 0 0 #996633;
+	transition: color 0.5s, top 0.5s,  box-shadow 0.5s;
 
 }
 #mercury:hover {
 	color: #000000;
+	top: 120px;
+	box-shadow: 0 5px 0 #996633;
 }
 
 .mercury {
@@ -104,11 +107,14 @@ a .planet{
 	border: 5px solid #8e8e8e;
 	background-color: #B2B2B2;
 	color: #474747;
-	transition: color 0.5s;
+	box-shadow: 0 0 0 #B2B2B2;
+	transition: color 0.5s, top 0.5s,  box-shadow 0.5s;
 }
 
 #mercuryMoon:hover {
 	color: #000000;
+	top: 45px;
+	box-shadow: 0 5px 0 #B2B2B2;
 }
 
 .mercuryMoon {
@@ -126,11 +132,14 @@ a .planet{
 	border: 5px solid #8e8e8e;
 	background-color: #B2B2B2;
 	color: #474747;
-	transition: color 0.5s;
+	box-shadow: 0 0 0 #B2B2B2;
+	transition: color 0.5s, top 0.5s,  box-shadow 0.5s;
 }
 
 #ship:hover {
 	color: #000000;
+	top: 170px;
+	box-shadow: 0 5px 0 #B2B2B2;
 }
 
 .ship {
@@ -147,11 +156,15 @@ a .planet{
 	border: 5px solid #9a8269;
 	background-color: #C1A384;
 	color: #4d4134;
-	transition: color 0.5s;
+	box-shadow: 0 0 0 #C1A384;
+	transition: color 0.5s, top 0.5s,  box-shadow 0.5s;
 }
 
 #venus:hover {
 	color: #000000;
+	top: 70px;
+	box-shadow: 0 5px 0 #C1A384;
+
 }
 
 .venus {
@@ -168,11 +181,14 @@ a .planet{
 	border: 5px solid #009999;
 	background-color: #0f9d11;
 	color: #032704;
-	transition: color 0.5s;
+	box-shadow: 0 0 0 #0f9d11;
+	transition: color 0.5s, top 0.5s,  box-shadow 0.5s;
 }
 
 #earth:hover {
 	color: #000000;
+	top: 25px;
+	box-shadow: 0 5px 0 #0f9d11;
 }
 
 .earth {
@@ -189,11 +205,14 @@ a .planet{
 	border: 5px solid #8e8e8e;
 	background-color: #B2B2B2;
 	color: #474747;
-	transition: color 0.5s;
+	box-shadow: 0 0 0 #B2B2B2;
+	transition: color 0.5s, top 0.5s, box-shadow 0.5s;
 }
 
 #earthMoon:hover{
 	color: #000000;
+	top: 95px;
+	box-shadow: 0 5px 0 #B2B2B2;
 }
 
 .earthMoon{
