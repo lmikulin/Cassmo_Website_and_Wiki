@@ -248,9 +248,9 @@ footer nav li{
 	text-align: center;
 }
 
-#bodyPara {
+.body {
 	width: 960px;
-	height: 1000px;
+	/*height: 1000px;*/
     padding: 25px;
     border: 5px solid;
     border-color: #ffffff;
@@ -260,7 +260,7 @@ footer nav li{
     margin: 25px auto;
 }
 
-#bodyPara h3 {
+.body h3 {
 	text-align: center;
 	font-family: 'guardian';
 	padding-bottom: 5px;
