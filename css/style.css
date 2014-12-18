@@ -18,7 +18,7 @@ body {
   background-size: cover;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
 	text-align: center;
 }
 
@@ -261,9 +261,15 @@ footer nav li{
 }
 
 #bodyPara h3 {
-	text-align: left;
-	padding-bottom: 1px;
-	border-bottom: 1px solid black;
+	text-align: center;
+	font-family: 'guardian';
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
 }
 
+iframe {
+	display: block;
+	margin: 20px auto;
+	margin-top: 5px;
+}
 /*CSS ANIMATIONS*/
