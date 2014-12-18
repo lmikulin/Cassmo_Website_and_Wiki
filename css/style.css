@@ -62,7 +62,7 @@ a .planet{
 	border-left: 0;
 	background-color: #FFFF66;
 	color: #666628;
-	transition: color 0.5s, box-shadow 1.5s;
+	transition: color 0.5s, box-shadow 1s;
 }
 
 #sun:hover {
