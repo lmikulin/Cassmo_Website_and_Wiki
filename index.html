@@ -9,60 +9,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cassmo</title> 
-    <link rel="stylesheet" href="./dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
-
+  <body ng-app="cassmo">
     <header>
     	<div id="title-header">
     		<h1 class="title">Cassmo</h1>
     	</div>
-        
-    	<div id="trueNav">
-    		<a href="index.html"><div id="sun" class="planet"><span class="sun">Home</span></div></a>
-    		<a href="about.html"><div id="mercury" class="planet"><span class="mercury">About</span></div></a>
-    		<a href="faq.html"><div id="mercuryMoon" class="planet"><span class="mercuryMoon">FAQ</span></div></a>
-    		<a href="documentation.html"><div id="ship" class="planet"><span class="ship">Documentation</span></div></a>
-    		<a href="wiki.html"><div id="venus" class="planet"><span class="venus">Wiki</span></div></a>
-    		<a href="game.html"><div id="earth" class="planet"><span class="earth">Game</span></div></a>
-    		<a href="https://github.com/ErisMik/CassmoGame"><div id="earthMoon" class="planet"><span class="earthMoon">GIT</span></div></a>
-    	</div>
-
-    	<!-- Crappy old Bootstrap Navbar
-    	<nav class="nav nav-pills navbar navbar-default" role="navigation">
-    		<li role="presentation" class="active"><a href="index.html">HOME</a></li>
-    		<li role="presentation"><a href="about.html">ABOUT</a></li>
-    		<li role="presentation"><a href="faq.html">FAQ</a></li>
-    		<li role="presentation"><a href="documentation.html">Documentation</a></li>
-    		<li role="presentation"><a href="wiki.html">WIKI</a></li>
-    		<li role="presentation"><a href="game.html">GAME</a></li>
-    	</nav> -->
+        <top-nav></top-nav>
     </header>
 
-    <div class="body">
-    	<h3>Cassmo: MMORPGRTS Command Simulation</h3>
+    <div id="bodyPara" class="body">
+    <ng-view></ng-view>
 
-        <h4>Placeholder Video</h4>
-
-        <iframe width="800" height="450" src="https://www.youtube.com/embed/hooKVstzbz0" frameborder="1" allowfullscreen></iframe>
     </div>
-    
-    <footer>
-    	<nav>
-    	<li><a href="contact.html">Contact</a></li>
-    	</nav>
+  
+    <page-footer></page-footer>
 
-    	<ol class="breadcrumb">
- 			 <li><a href="map.html">Sitemap</a></li>
-  			<li class="active">Home</li>
-		</ol>
-    </footer>
-   
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="dist/js/angular.js"></script>
+    <script type="text/javascript" src="dist/js/angular-route.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./dist/js/bootstrap.js"></script>
 
   </body>
