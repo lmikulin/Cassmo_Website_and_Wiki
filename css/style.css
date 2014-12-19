@@ -11,11 +11,12 @@
 }
 
 body { 
-  background: url(../src/star.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	position: relative;
+	background: url(../src/star.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 h1, h2, h3, h4, p {
@@ -236,7 +237,7 @@ a .planet{
 }
 
 .breadcrumb {
-	width: 99%;
+	width: 100%;
 	margin: auto;
 	border-radius: 0;
 }
@@ -271,5 +272,9 @@ iframe {
 	display: block;
 	margin: 20px auto;
 	margin-top: 5px;
+}
+
+body { 
+	padding-bottom: 70px; 
 }
 /*CSS ANIMATIONS*/
