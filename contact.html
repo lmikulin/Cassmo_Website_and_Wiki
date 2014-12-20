@@ -1,32 +1,63 @@
 <!DOCTYPE html>
+
+<!-- The CASSMO game Website & Wiki -->
+<!-- Created By Eric Mikulin-->
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Cassmo - Game</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cassmo - Contact</title> 
+    <link rel="stylesheet" href="./dist/css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="script.js"></script>
   </head>
+
   <body>
 
     <header>
-        <h1>Cassmo</h1>
-        <nav>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="documentation.html">Documentation</a></li>
-            <li><a href="wiki.html">WIKI</a></li>
-            <li><a href="game.html">GAME</a></li>
-        </nav>
+        <div id="title-header"><h1 class="title">Contact</h1></div>
+        <div id="trueNav"></div>
     </header>
-    
-    <div id="body">
-        <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+
+    <div class="body">
+        <h3>Contact Form</h3>
+
+        <form role="form">
+          <div class="form-group">
+            <label for="inputEmail">Email address</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="inputName">Name</label>
+            <input type="name" class="form-control" id="inputName" placeholder="Enter Name">
+          </div>
+          <div class="form-group">
+            <label for="inputText">Message</label>
+            <textarea class="form-control" rows="6" placeholder="Enter Your Message"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="catSelect">Select Category of Message</label>
+            <select class="form-control">
+                <option>[Pick One]</option>
+                <option>Suggestion</option>
+                <option>Bug Report</option>
+                <option>Question</option>
+                <option>Other</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
+    
+    <footer id="footerBar"></footer>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./dist/js/bootstrap.js"></script>
 
-    <footer>
-        <nav>
-        </nav>
-    </footer>
-
+    <script>$( "#trueNav" ).load( "/partials/nav-header.html" );</script>
+    <script>$( "#footerBar" ).load( "/partials/footer.html" );</script>
   </body>
 </html>
