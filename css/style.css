@@ -223,15 +223,15 @@ a .planet{
 }
 
 .navbar	{
-	width: 50%;
-	min-width: 650px;
+	width: 100px;
 	margin: auto;
+	margin-right: 0;
+	margin-top: 10%;
 	border-radius: 0;
 }
 
 .nav-pills li {
 	padding: 4px;
-	width: 16.4%;
 	text-align: center;
 	vertical-align: center;
 }
@@ -276,5 +276,9 @@ iframe {
 
 body { 
 	padding-bottom: 70px; 
+}
+
+#section {
+	height: 250px;
 }
 /*CSS ANIMATIONS*/
