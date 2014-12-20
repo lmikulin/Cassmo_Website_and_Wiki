@@ -13,3 +13,5 @@ This website will grow with the game, and will house information, documentation 
 - Tiny bit of testing in Firefox (32.0.3)
 
 - No CSS compatibilities with other engines have been put in, browse at your own risk!
+
+- JQuery requires the website to be hosted on a websever (localhost works fine)
