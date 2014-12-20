@@ -281,4 +281,16 @@ body {
 #section {
 	height: 250px;
 }
+
+.pagination {	
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.pagination li a{
+	position: relative;
+	text-align: center;
+	width: 20%;
+}
 /*CSS ANIMATIONS*/
