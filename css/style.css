@@ -293,4 +293,8 @@ body {
 	text-align: center;
 	width: 20%;
 }
+
+.form-inline {
+	float: right;
+}
 /*CSS ANIMATIONS*/
