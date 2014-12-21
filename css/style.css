@@ -297,4 +297,9 @@ body {
 .form-inline {
 	float: right;
 }
+
+dd { 
+    display: block;
+    margin-left: 10px;
+}
 /*CSS ANIMATIONS*/
