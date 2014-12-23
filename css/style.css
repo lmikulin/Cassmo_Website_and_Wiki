@@ -278,8 +278,13 @@ body {
 	padding-bottom: 70px; 
 }
 
-#section {
-	height: 250px;
+.section {
+	height: 500px;
+}
+
+.section p {
+	width: 750px;
+	margin: 0px auto;
 }
 
 .pagination {	
