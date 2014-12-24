@@ -174,6 +174,30 @@ a .planet{
 	top: 35px;
 }
 
+#probe {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	border: 5px solid #2836b0;
+	background-color: #3344DD;
+	color: #141b58;
+	left: 550px;
+	top: 35px;
+	box-shadow: 0 0 0 #3344DD;
+	transition: color 0.5s, top 0.5s,  box-shadow 0.5s;
+
+}
+#probe:hover {
+	color: #000000;
+	top: 30px;
+	box-shadow: 0 5px 0 #3344DD;
+}
+
+.probe {
+	position: relative;
+	top: 25px;
+}
+
 #earth {
 	width: 135px;
 	height: 135px;
