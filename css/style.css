@@ -306,6 +306,27 @@ body {
 .section p {
 	width: 750px;
 	margin: 0px auto;
+	font-size: 20px;
+}
+
+.section a {
+	width: 750px;
+	margin: 0px auto;
+	font-size: 20px;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.section h4 {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+.tutorial {
 }
 
 .pagination {	
