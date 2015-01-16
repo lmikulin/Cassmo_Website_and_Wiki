@@ -300,7 +300,7 @@ body {
 }
 
 .section {
-	height: 500px;
+	min-height: 500px;
 }
 
 .section p {
