@@ -5,6 +5,8 @@ Cassmo Website
 
 This website will grow with the game, and will house information, documentation and perhaps a wiki.
 
+[See it Here](http://erismik.github.io/Cassmo_Website_and_Wiki.)
+
 #####Information
 - It uses the [Bootstrap](http://getbootstrap.com/) Framework
 
