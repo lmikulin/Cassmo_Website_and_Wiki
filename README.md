@@ -5,6 +5,8 @@ Cassmo Website
 
 This website will grow with the game, and will house information, documentation and perhaps a wiki.
 
+[See it Here](http://rting.github.io/Cassmo_Website_and_Wiki)
+
 #####Information
 - It uses the [Bootstrap](http://getbootstrap.com/) Framework
 
@@ -14,4 +16,4 @@ This website will grow with the game, and will house information, documentation 
 
 - No CSS compatibilities with other engines have been put in, browse at your own risk!
 
-- JQuery requires the website to be hosted on a websever (localhost works fine)
+- JQuery requires the website to be hosted on a web server (localhost works fine)
